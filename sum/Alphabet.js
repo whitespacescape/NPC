@@ -4,6 +4,10 @@ import "transistor/NPN.c"
 import "transistor/PNP.c"
 import "transistor/PPN.c"
 import "transistor/PPP.c"
+import "polar/base.ts"
+import "polar/emitter.ts"
+import "polar/collector.ts"
+
 a : "<1&0>"
 b : "<0&1>"
 c : "<0&0>"
@@ -39,15 +43,10 @@ y : "[()]"
 z : "{[]}"
 
 bc : "<00001011>"
-
 fg : "<00001010>"
- 
 jk : "(00001101)"
-
 no : "(00001110)"
-
 t : "[00001111]"
-
 xy : "{00010000}"
  
 
